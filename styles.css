@@ -1,2 +1,24 @@
+ nav {
+      background-color: #333;
+      padding: 10px;
+    }
 
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    li {
+      margin-right: 20px;
+    }
+
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+h1{
+	color:black;
+}
 /* Your CSS Code here. */
