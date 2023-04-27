@@ -3,27 +3,46 @@
 <html>
 
 <head>
-	<title>3 random audios</title>
-	<link rel="stylesheet" href="styles.css">
-</head>
+	 <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Semantic Navbar with Audios</title>
+  <style>
+    nav {
+      background-color: #333;
+      padding: 10px;
+    }
 
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: flex-start;
+    }
+
+    li {
+      margin-right: 20px;
+    }
+
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+  </style>
+</head>
 <body>
-	<!-- the entire body must be written by student -->
-	<nav>
-		<ul>
-			
-			<li><a href="#home">Home</li>
-			<li><a href="#about">About us</li>
-			<li><a href="#contact">Contact us</li>
-		</ul>
-	</nav>
-	<h1>3 random audios</h1>
-	
-	<audio src="http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3" controls type="audi/mpeg"></audio>
-	<audio src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" controls type="audio/ogg"></audio>
-	<audio src="http://codeskulptor-demos.commondatastorage.googleapis.com/pang/paza-moduless.mp3" controls type="audio/mpeg"></audio>
-    <script type="text/javascript" src="./script.js">
-</script>
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <h3>Random Audios:</h3>
+  <audio src="http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3" controls></audio>
+  <audio src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" controls></audio>
+  <audio src="http://codeskulptor-demos.commondatastorage.googleapis.com/pang/paza-moduless.mp3" controls></audio>
 
 </body>
 
